@@ -1,0 +1,72 @@
+% \newlength{\Lebar}
+% \setlength{\Lebar}{\dimexpr\textwidth-6\tabcolsep\relax}
+%
+% \newlength{\LebarX}
+% \setlength{\LebarX}{\dimexpr\Lebar-1cm-2cm-2cm\relax}
+%
+% \newcommand{\thead}[2]{%
+%   \multicolumn{1}{>{\raggedright\arraybackslash}m{#1}}{\textbf{#2}}%
+% }
+%
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}p{2cm} 
+  X 
+  >{\raggedright\arraybackslash}p{2cm}
+}
+  \caption{Kebutuhan Fungsional}\label{tbl:fr} \\
+  \toprule
+  \textbf{Kode} & \textbf{Kebutuhan} & \textbf{Deskripsi} & \textbf{Masalah} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Kebutuhan Fungsional (lanjutan)} \\
+  \toprule
+  \textbf{Kode} & \textbf{Kebutuhan} & \textbf{Deskripsi} & \textbf{Masalah} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{4}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  FR01 & Impor data &
+  Sistem dapat mengimpor data tagihan dan hasil pengukuran dari \textit{file} Excel atau CSV. &
+  P01 \\
+  \hline
+  FR02 & Normalisasi dan validasi data &
+  Sistem dapat melakukan normalisasi dan validasi terhadap data. &
+  P01, P02 \\
+  \hline
+  FR03 & Input data terstruktur &
+  Sistem menyediakan form input terstruktur untuk penginputan manual, terdapat juga fitur edit dan hapus, serta terdapat juga validasi langsung di antarmuka. &
+  P02 \\
+  \hline
+  FR04 & Penyimpanan histori audit &
+  Sistem menyimpan semua data hasil input/impor, hasil perhitungan, temuan, dan versi laporan disimpan dalam basis data sehingga histori audit dapat dicari dan ditampilkan. &
+  P04 \\
+  \hline
+  FR05 & Perhitungan indikator energi &
+  Sistem menghitung indikator utama seperti total energi, puncak beban, dan Intensitas Konsumsi Energi (IKE) secara otomatis berdasarkan aturan yang ditetapkan. &
+  P03 \\
+  \hline
+  FR06 & Penilaian dan Rekomendasi &
+  Sistem menyediakan modul penilaian yang menghasilkan daftar rekomendasi yang runtut beserta dengan alasannya. &
+  P05, P06 \\
+  \hline
+  FR07 & \textit{Dashboard} dan visualisasi &
+  Sistem menampilkan \textit{dashboard} interaktif yang memuat profil beban, grafik tren waktu, dan heatmap konsumsi per zona dengan opsi filter periode. &
+  P06 \\
+  \hline
+  FR08 & Generator laporan otomatis &
+  Sistem menghasilkan laporan audit otomatis (ringkasan eksekutif, tabel perhitungan, temuan, rekomendasi) dalam format PDF dan/atau Word berdasarkan template. &
+  P05 \\
+  \hline
+\end{tabularx}

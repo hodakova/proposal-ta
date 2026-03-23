@@ -1,0 +1,45 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}p{2cm} 
+  X
+}
+  \caption{Identifikasi Masalah Pengguna}\label{tbl:problem} \\
+  \toprule
+  \textbf{Kode} & \textbf{Masalah} & \textbf{Deskripsi} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Identifikasi Masalah Pengguna (lanjutan)} \\
+  \toprule
+  \textbf{Kode} & \textbf{Masalah} & \textbf{Deskripsi} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{3}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  P01 & Format data tidak seragam &
+  Data berasal dari tagihan, \textit{spreadsheet}, dan pengukuran sementara dengan struktur berbeda, sehingga membutuhkan waktu untuk normalisasi dan validasi sebelum analisis \cite{luciano2011integrating,hamdani2017audit}. \\
+  \hline
+  P02 & Penginputan data manual &
+  Penginputan data dimasukkan secara manual ke \textit{spreadsheet} sehingga meningkatkan risiko kesalahan ketik dan inkonsistensi antar auditor \cite{hamdani2017audit,winarto2019audit}. \\
+  \hline
+  P03 & Perhitungan tidak terdokumentasi &
+  Formula dan metode perhitungan tidak baku atau terdokumentasi, menyebabkan hasil perhitungan berbeda antar sesi audit; otomasi perhitungan dan dokumentasi provenance dapat meningkatkan konsistensi dan keterjelasan hasil \cite{fitri2022sistem,kale2023provenance}. \\
+  \hline
+  P04 & Kurangnya histori terpusat &
+  Hasil audit dan temuan disimpan secara terpisah atau dalam \textit{file} lokal sehingga sulit menelusuri riwayat dan menganalisis tren jangka panjang, yang menuntut sistem penyimpanan terpusat dan model data terstruktur \cite{hermawan2022perencanaan,hamdani2017audit}. \\
+  \hline
+  P05 & Pelaporan memakan waktu & Penyusunan laporan dilakukan secara manual sehingga proses ringkasan dan rekomendasi membutuhkan waktu lama dan menghambat tindak lanjut; otomatisasi laporan dapat mempercepat alur kerja \cite{putra2025evaluasi,winarto2019audit}. \\
+  \hline
+  P06 & Minim visualisasi dan \textit{insight} & Tidak tersedia \textit{dashboard} atau visualisasi terintegrasi sehingga pengguna kesulitan melihat pola konsumsi, beban puncak, dan area prioritas intervensi, sehingga diperlukan modul visualisasi yang informatif \cite{hamdani2017audit,hermawan2022perencanaan}. \\
+  \hline
+\end{tabularx}

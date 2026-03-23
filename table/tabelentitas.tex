@@ -1,0 +1,84 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}p{2cm} 
+  X 
+  >{\raggedright\arraybackslash}p{1cm}
+}
+  \caption{Definisi Entitas}\label{tbl:entitas} \\
+  \toprule
+  \textbf{Kode} & \textbf{Entitas} & \textbf{Deskripsi} & \textbf{Fungsi} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Definisi Entitas (lanjutan)} \\
+  \toprule
+  \textbf{Kode} & \textbf{Entitas} & \textbf{Deskripsi} & \textbf{Fungsi} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{4}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+    \hline
+    E01 & Pengguna &
+    Menyimpan informasi pengguna sistem yang berinteraksi dengan aplikasi, seperti auditor energi atau pengelola gedung. Data ini digunakan untuk mengidentifikasi pihak yang melakukan atau mengakses audit energi. &
+    FR07 \\
+    \hline
+
+    E02 & ProyekAudit &
+    Menyimpan informasi proyek audit energi yang dilakukan pada suatu gedung atau periode tertentu. Entitas ini berfungsi sebagai pusat pengelolaan seluruh data audit, termasuk data energi, hasil perhitungan, dan laporan audit. &
+    FR04 \\
+    \hline
+
+    E03 & Gedung &
+    Menyimpan informasi mengenai gedung yang menjadi objek audit energi, seperti nama gedung, lokasi, dan karakteristik dasar bangunan yang relevan dengan analisis konsumsi energi. &
+    FR03 \\
+    \hline
+
+    E04 & DataEnergi &
+    Menyimpan data konsumsi energi atau data pengukuran lapangan yang diperoleh selama proses audit, seperti penggunaan listrik, daya peralatan, atau parameter energi lainnya. Data ini menjadi dasar perhitungan indikator energi. &
+    FR01, FR03 \\
+    \hline
+
+    E05 & HasilPer- hitungan &
+    Menyimpan hasil perhitungan indikator kinerja energi yang dihasilkan oleh sistem, seperti intensitas konsumsi energi (IKE) dan indikator lainnya yang digunakan dalam evaluasi audit energi. &
+    FR05 \\
+    \hline
+
+    E06 & Penilaian &
+    Menyimpan hasil penilaian atau scoring audit energi berdasarkan indikator yang dihitung serta kriteria evaluasi yang digunakan dalam sistem. Penilaian ini digunakan untuk menentukan tingkat efisiensi energi dan rekomendasi perbaikan. &
+    FR06 \\
+    \hline
+
+    E07 & Checklist Audit &
+    Menyimpan daftar pemeriksaan atau checklist audit yang digunakan untuk memastikan bahwa proses audit energi telah mengikuti prosedur atau standar yang berlaku. &
+    FR06 \\
+    \hline
+
+    E08 & BuktiAudit &
+    Menyimpan dokumentasi atau bukti yang mendukung hasil audit, seperti catatan pengukuran, foto lapangan, atau dokumen pendukung lainnya yang terkait dengan pelaksanaan audit energi. &
+    FR04 \\
+    \hline
+
+    E09 & Standar &
+    Menyimpan informasi mengenai standar audit energi yang digunakan sebagai acuan, seperti ISO 50001, ISO 50002, atau SNI yang relevan dengan audit energi bangunan gedung. &
+    FR06 \\
+    \hline
+
+    E10 & Klausul Standar &
+    Menyimpan rincian klausul atau persyaratan yang terdapat dalam suatu standar audit energi. Entitas ini memungkinkan sistem memetakan proses audit terhadap ketentuan standar yang digunakan. &
+    FR06 \\
+    \hline
+
+    E11 & Laporan &
+    Menyimpan hasil laporan audit energi yang dihasilkan oleh sistem berdasarkan data audit, hasil perhitungan indikator, serta penilaian yang telah dilakukan. Laporan ini digunakan sebagai output akhir proses audit energi. &
+    FR08 \\
+    \hline
+\end{tabularx}

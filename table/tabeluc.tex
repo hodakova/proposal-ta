@@ -1,0 +1,61 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}p{2cm} 
+  X 
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}p{1cm}
+}
+  \caption{Definisi \textit{Use Case}}\label{tbl:uc} \\
+  \toprule
+  \textbf{Kode} & \textbf{\textit{Use Case}} & \textbf{Deskripsi} & \textbf{Fungsi} & \textbf{Aktor} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Definisi \textit{Use Case} (lanjutan)} \\
+  \toprule
+  \textbf{Kode} & \textbf{\textit{Use Case}} & \textbf{Deskripsi} & \textbf{Fungsi} & \textbf{Aktor} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{5}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  UC01 & Mengelola Proyek & 
+  Membuat dan mengelola proyek audit energi sebagai wadah penyimpanan data, hasil perhitungan, dan histori audit untuk satu gedung atau periode tertentu. &
+  FR04 &
+  A01 \\
+  \hline
+  UC02 & Menginput Data & 
+  Melakukan input data audit energi melalui impor \textit{file} atau penginputan manual terstruktur sebagai bagian dari proses audit. &
+  FR01, FR03 &
+  A01 \\
+  \hline
+  UC03 & Memvalidasi Data & 
+  Melakukan normalisasi dan validasi data audit secara otomatis untuk memastikan kesesuaian format dan kelengkapan sebelum diproses lebih lanjut. &
+  FR02 &
+  --- \\
+  \hline
+  UC04 & Mensinkron- isasi Data & 
+  Menyimpan dan menyelaraskan data audit yang telah divalidasi ke basis data terpusat ketika koneksi tersedia. &
+  FR04 &
+  --- \\
+  \hline
+  UC05 & Menghitung IKE dan Penilaian & 
+  Menghitung indikator kinerja energi dan melakukan penilaian atau prioritisasi rekomendasi secara otomatis berdasarkan data audit. &
+  FR05, FR06 &
+  --- \\
+  \hline
+  UC06 & Melihat \textit{Dashboard} dan Laporan & 
+  Menampilkan hasil audit energi dalam bentuk \textit{dashboard} visual dan laporan otomatis untuk pemantauan dan evaluasi. &
+  FR07, FR08 &
+  A01, A02 \\
+  \hline
+\end{tabularx}

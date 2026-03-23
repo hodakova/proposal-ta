@@ -1,0 +1,41 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}p{2cm} 
+  X
+}
+  \caption{Kebutuhan Nonfungsional}\label{tbl:nr} \\
+  \toprule
+  \textbf{Kode} & \textbf{Parameter} & \textbf{Kebutuhan} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Kebutuhan Nonfungsional (lanjutan)} \\
+  \toprule
+  \textbf{Kode} & \textbf{Parameter} & \textbf{Kebutuhan} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{3}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  NR01 & \textit{Performance} & Sistem mampu memproses impor data dan menghitung indikator energi untuk satu periode audit dalam waktu kurang dari 5 detik. \\
+  \hline
+  NR02 & \textit{Reliability} & Sistem dapat beroperasi tanpa \textit{error} pada penggunaan normal dan menjaga integritas data kalaupun terjadi kegagalan proses. \\
+  \hline
+  NR03 & \textit{Usability} & Antarmuka mudah dipahami oleh auditor nonteknis dan setiap fungsi utama dapat mudah diakses. \\
+  \hline
+  NR04 & \textit{Security} & Akses sistem dibatasi melalui autentikasi pengguna, dan data audit hanya dapat diubah oleh pengguna dengan hak akses tertentu. \\
+  \hline
+  NR05 & \textit{Scalability} & Sistem mampu menangani pertambahan data audit dari beberapa periode tanpa menurunkan kinerja secara signifikan. \\
+  \hline
+  NR06 & \textit{Portability} & Sistem dapat dijalankan pada peramban modern (Chrome, Firefox, Edge) tanpa instalasi tambahan. \\
+  \hline
+\end{tabularx}

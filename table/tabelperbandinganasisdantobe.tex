@@ -1,0 +1,61 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}X 
+  p{5cm} 
+  p{5cm}
+}
+  \caption{Perbandingan Kondisi Saat Ini dan Kondisi yang Akan Datang}\label{tbl:perbandinganasisdantobe} \\
+  \toprule
+  \textbf{Aspek} & \textbf{Kondisi Saat Ini} & \textbf{Kondisi yang Akan Datang} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Perbandingan Kondisi Saat Ini dan Kondisi yang Akan Datang (lanjutan)} \\
+  \toprule
+  \textbf{Aspek} & \textbf{Kondisi Saat Ini} & \textbf{Kondisi yang Akan Datang} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{3}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  Pengumpulan data 
+  & Data diperoleh dari tagihan listrik, pengukuran sementara, dan pencatatan manual karena keterbatasan sistem monitoring permanen dan belum adanya aplikasi pendukung terintegrasi. Pendekatan ini membuat proses pengumpulan data bergantung pada aktivitas individu auditor. 
+  & Data dikumpulkan melalui aplikasi berbasis web dengan dukungan operasi luring, sehingga auditor dapat melakukan pencatatan lapangan secara langsung dan konsisten tanpa bergantung pada ketersediaan koneksi jaringan. \\
+  \hline
+  Penginputan data 
+  & Penginputan dilakukan secara manual ke \textit{spreadsheet} dengan format yang bervariasi antar auditor, yang berpotensi menimbulkan inkonsistensi struktur data dan kesalahan input. 
+  & Penginputan dilakukan melalui formulir terstruktur dan mekanisme impor data dengan normalisasi otomatis, sehingga format data menjadi seragam dan lebih siap untuk dianalisis oleh sistem. \\
+  \hline
+  Validasi data 
+  & Validasi data dilakukan secara manual setelah seluruh data terkumpul, sehingga kesalahan input sering terlambat terdeteksi dan memerlukan koreksi ulang. 
+  & Validasi awal dilakukan secara otomatis pada sisi pengguna sebelum data disinkronkan, sehingga kesalahan dapat dideteksi lebih dini dan kualitas data lebih terjaga. \\
+  \hline
+  Ketergantungan koneksi 
+  & Proses audit sering bergantung pada ketersediaan koneksi untuk pengiriman dan pengolahan data, yang dapat menghambat aktivitas audit lapangan di lokasi dengan akses jaringan terbatas. 
+  & Proses audit dirancang menggunakan pendekatan aplikasi web luring, sehingga seluruh aktivitas pengumpulan dan penginputan data dapat dilakukan tanpa koneksi dan disinkronkan ketika koneksi tersedia. \\
+  \hline
+  Perhitungan indikator 
+  & Perhitungan indikator seperti Intensitas Konsumsi Energi (IKE) dilakukan secara manual atau menggunakan rumus \textit{spreadsheet} yang tidak selalu terdokumentasi secara baku, sehingga hasil sulit distandardisasi. 
+  & Perhitungan indikator dilakukan secara otomatis dan terstandar di sisi server berdasarkan aturan yang telah ditetapkan, sehingga konsistensi hasil audit antar periode dapat terjaga. \\
+  \hline
+  Pelaporan 
+  & Laporan audit disusun secara manual dengan penggabungan data dan hasil perhitungan, sehingga membutuhkan waktu relatif lama dan bergantung pada ketelitian auditor. 
+  & Laporan dihasilkan secara otomatis oleh sistem berdasarkan hasil pemrosesan data dan perhitungan indikator, sehingga mempercepat proses pelaporan dan mengurangi beban kerja auditor. \\
+  \hline
+  Visualisasi hasil 
+  & Visualisasi hasil audit terbatas dan umumnya berupa tabel statis atau grafik sederhana yang tidak terintegrasi, sehingga sulit digunakan untuk analisis cepat. 
+  & Hasil audit disajikan dalam bentuk \textit{dashboard} dan visualisasi terintegrasi yang memudahkan pemantauan pola konsumsi dan identifikasi area prioritas. \\
+  \hline
+  Penyimpanan histori 
+  & Data dan laporan audit disimpan secara terpisah dalam \textit{file} lokal, sehingga sulit ditelusuri kembali dan tidak mendukung analisis historis jangka panjang. 
+  & Seluruh data dan hasil audit disimpan dalam basis data terpusat sebagai histori audit yang dapat diakses kembali untuk evaluasi berkala dan analisis tren. \\
+  \hline
+\end{tabularx}

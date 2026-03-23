@@ -1,0 +1,49 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}p{2cm} 
+  X 
+  >{\raggedright\arraybackslash}p{1.5cm}
+}
+  \caption{Deskripsi Parameter}\label{tbl:deskripsiparameteras} \\
+  \toprule
+  \textbf{Kode} & \textbf{Parameter} & \textbf{Deskripsi} & \textbf{Bobot} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Deskripsi Parameter (lanjutan)} \\
+  \toprule
+  \textbf{Kode} & \textbf{Parameter} & \textbf{Deskripsi} & \textbf{Bobot} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{4}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  PS01 & Kelayakan teknis & 
+  Menilai keterlaksanaan teknis solusi berdasarkan kesesuaian dengan kebutuhan perangkat lunak, ketersediaan data, serta kompleksitas pengembangan. Parameter ini diberi bobot tertinggi karena solusi yang tidak layak secara teknis tidak dapat diimplementasikan dan diuji secara valid, sehingga menghambat keseluruhan proses rekayasa perangkat lunak \cite{sommerville2016software}. 
+  & 0.30 \\
+  \hline
+  PS02 & Kesesuaian kebutuhan & 
+  Mengukur sejauh mana solusi memenuhi kebutuhan pengguna dan mendukung alur kerja audit energi yang telah diidentifikasi. Bobot tinggi diberikan karena keberhasilan sistem audit sangat bergantung pada kesesuaian fungsi dengan praktik audit di lapangan dan kemudahan penggunaan oleh auditor \cite{vredenburg2002survey,hermawan2022perencanaan}. 
+  & 0.25 \\
+  \hline
+  PS03 & Transparansi dan auditabilitas & 
+  Menilai kemampuan solusi dalam menyediakan jejak keputusan, log perhitungan, serta keterlacakan data dan hasil analisis. Parameter ini penting untuk memastikan hasil audit dapat diverifikasi dan dipertanggungjawabkan, terutama ketika sistem melakukan otomasi perhitungan dan penilaian \cite{kale2023provenance,dowling2007audit}. 
+  & 0.20 \\
+  \hline
+  PS04 & Kepatuhan standar & 
+  Mengukur dukungan solusi terhadap prosedur, indikator, dan format pelaporan audit energi sesuai standar ISO 50001, ISO 50002, dan SNI 03-6196-2000. Bobot parameter ini mencerminkan pentingnya keselarasan sistem dengan kerangka audit formal agar hasil audit memiliki legitimasi dan konsistensi metodologis \cite{iso2018_50001,iso2014_50002,sni2000_036196}. 
+  & 0.15 \\
+  \hline
+  PS05 & Kemudahan implementasi & 
+  Menilai tingkat kemudahan solusi untuk dikembangkan, diuji, dan diterapkan dalam lingkup tugas akhir. Bobotnya lebih kecil karena kemudahan implementasi bersifat pendukung, selama solusi tetap layak secara teknis dan memenuhi kebutuhan utama sistem \cite{sommerville2016software}. 
+  & 0.10 \\
+\end{tabularx}

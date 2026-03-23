@@ -1,0 +1,50 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{2.5cm} 
+  >{\raggedright\arraybackslash}p{2.5cm} 
+  X
+}
+  \caption{Lingkungan dan Alat Pengembangan}\label{tbl:tools} \\
+  \toprule
+  \textbf{Kategori} & \textbf{Alat/Bahan} & \textbf{Deskripsi} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Lingkungan dan Alat Pengembangan (lanjutan)} \\
+  \toprule
+  \textbf{Kategori} & \textbf{Alat/Bahan} & \textbf{Deskripsi} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{3}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  Bahasa Pemrograman & Python & 
+  Digunakan untuk pengembangan logika aplikasi, pemrosesan data audit energi, dan perhitungan indikator kinerja energi. \\
+  \hline
+  Framework Web & Flask & 
+  Digunakan untuk membangun aplikasi web dan menyediakan antarmuka antara pengguna dan sistem audit energi. \\
+  \hline
+  Basis Data & Firebase Firestore & 
+  Digunakan sebagai basis data berbasis cloud untuk menyimpan data audit energi dan histori perhitungan secara terpusat, dengan dukungan penyimpanan sementara di sisi klien dan sinkronisasi otomatis ketika koneksi jaringan tersedia. \\
+  \hline
+  Frontend & HTML, CSS, JavaScript & 
+  Digunakan untuk membangun antarmuka pengguna, termasuk form input data dan tampilan \textit{dashboard}. \\
+  \hline
+  Visualisasi Data & Chart.js & 
+  Digunakan untuk menampilkan grafik konsumsi energi dan tren hasil audit dalam bentuk visual interaktif. \\
+  \hline
+  Alat Pengembangan & Visual Studio Code & 
+  Digunakan sebagai lingkungan pengembangan untuk menulis dan mengelola kode program. \\
+  \hline
+  Perangkat Pendukung & Browser Web & 
+  Digunakan untuk menjalankan dan menguji aplikasi audit energi berbasis web. \\
+  \hline
+\end{tabularx}

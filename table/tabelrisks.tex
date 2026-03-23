@@ -1,0 +1,38 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}X
+  p{4cm} 
+  p{4cm} 
+}
+  \caption{Analisis Risiko dan Mitigasi}\label{tbl:risks} \\
+  \toprule
+  \textbf{Kode} & \textbf{Risiko} & \textbf{Dampak} & \textbf{Mitigasi} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Analisis Risiko dan Mitigasi (lanjutan)} \\
+  \toprule
+  \textbf{Kode} & \textbf{Risiko} & \textbf{Dampak} & \textbf{Mitigasi} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{4}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  R01 & Keterbatasan data audit & Analisis dan evaluasi sistem kurang representatif terhadap kondisi nyata gedung & Menggunakan data studi kasus yang tersedia dan melengkapi dengan data simulasi atau data historis yang relevan \\
+  \hline
+  R02 & Perubahan kebutuhan pengguna & Desain sistem perlu penyesuaian ulang sehingga menghambat implementasi & Membatasi ruang lingkup kebutuhan dan memprioritaskan kebutuhan inti sesuai rumusan masalah \\
+  \hline
+  R03 & Kendala teknis implementasi & Fitur tertentu tidak dapat diimplementasikan sesuai rencana & Menyederhanakan fitur nonkritis dan fokus pada fungsi utama audit energi \\
+  \hline
+  R04 & Keterbatasan waktu pengembangan & Implementasi dan pengujian tidak optimal & Menyusun jadwal kerja bertahap dan memfokuskan pengembangan pada modul utama sistem \\
+  \hline
+\end{tabularx}

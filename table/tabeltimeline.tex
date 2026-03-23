@@ -1,0 +1,64 @@
+{
+   \newlength{\PanjangKolom}
+   \setlength{\PanjangKolom}{0.5cm}
+
+   \newcommand{\B}{\cellcolor[HTML]{83C6D9}}
+   \newcommand{\M}{\cellcolor[HTML]{FFD700}}
+
+   \keepXColumns{}
+   \begin{tabularx}{\textwidth}{|%
+      >{\raggedright\arraybackslash}X| %
+      >{\raggedright\arraybackslash}p{\PanjangKolom}| %
+      >{\raggedright\arraybackslash}p{\PanjangKolom}| %
+      >{\raggedright\arraybackslash}p{\PanjangKolom}| %
+      >{\raggedright\arraybackslash}p{\PanjangKolom}| %
+      >{\raggedright\arraybackslash}p{\PanjangKolom}| %
+      >{\raggedright\arraybackslash}p{\PanjangKolom}| %
+      >{\raggedright\arraybackslash}p{\PanjangKolom}| %
+      >{\raggedright\arraybackslash}p{\PanjangKolom}|%
+   }
+      \caption{Linimasa Pengerjaan}\label{tbl:timeline} \\
+      \toprule
+      \textbf{Kegiatan} & \textbf{B1} & \textbf{B2} & \textbf{B3} & \textbf{B4} & \textbf{B5} & \textbf{B6} & \textbf{B7} & \textbf{B8} \\
+      \midrule
+      \endfirsthead
+
+      \caption{Linimasa Pengerjaan (lanjutan)} \\
+      \toprule
+      \textbf{Kegiatan} & \textbf{B1} & \textbf{B2} & \textbf{B3} & \textbf{B4} & \textbf{B5} & \textbf{B6} & \textbf{B7} & \textbf{B8} \\
+      \midrule
+      \endhead
+
+      \midrule
+      \multicolumn{9}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+      %\bottomrule
+      \endfoot
+
+      \bottomrule
+      \endlastfoot
+
+      % === Table Data ===
+      \hline
+      Studi Awal dan Perumusan Topik &
+      \B &    &    &    &    &    &    &    \\
+      \hline
+      Studi Literatur &
+      \B & \B &    &    &    &    &    &    \\
+      \hline
+      Analisis Kondisi dan Kebutuhan Sistem &
+         & \B & \M &    &    &    &    &    \\
+      \hline
+      Desain Sistem &
+         & \B & \M &    &    &    &    &    \\
+      \hline
+      Implementasi Sistem &
+         &    &    & \M & \M & \M &    &    \\
+      \hline
+      Pengujian dan Evaluasi Sistem &
+         &    &    &    &    &    & \M &    \\
+      \hline
+      Penyempurnaan dan Dokumentasi Akhir &
+         &    &    &    &    &    &    & \M \\
+      \hline
+   \end{tabularx}
+}

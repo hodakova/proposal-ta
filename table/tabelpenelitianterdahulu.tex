@@ -1,0 +1,97 @@
+{
+  \newlength{\LebarBersih}
+  \setlength{\LebarBersih}{\dimexpr\textwidth-6\tabcolsep\relax}
+
+  \newlength{\KolomDeskripsi}
+  \newlength{\KolomIsi}
+
+  \setlength{\KolomDeskripsi}{\dimexpr\LebarBersih/3\relax}
+  \setlength{\KolomIsi}{\dimexpr\LebarBersih/3\relax}
+
+  \newlength{\LebarTabel}
+  \setlength{\LebarTabel}{%
+    \dimexpr
+      \KolomDeskripsi + 2\KolomIsi + 6\tabcolsep
+    \relax
+  }
+
+  \newcommand{\JudulBlok}[4]{%
+    \multicolumn{3}{@{}p{\LebarTabel}@{}}{%
+      % \raggedright
+      \vspace{-\dimexpr\baselineskip/2\relax}
+      \hspace*{\tabcolsep}{%
+        \hangindent=\tabcolsep
+        \hangafter=1
+        \rightskip=\tabcolsep
+        #1\par
+      }
+      \vspace{-\dimexpr\baselineskip/2\relax}
+      \rule{\LebarTabel}{0.4pt}\par
+      % \vspace{-\dimexpr\baselineskip/8\relax}
+      \begin{tabular}{%
+        p{\KolomDeskripsi}%
+        p{\KolomIsi}%
+        p{\KolomIsi}}
+        #2 & #3 & #4
+      \end{tabular}
+    }\\
+  }
+
+  \begin{longtable}{
+    >{\raggedright\arraybackslash}p{\KolomDeskripsi}
+    >{\raggedright\arraybackslash}p{\KolomIsi}
+    >{\raggedright\arraybackslash}p{\KolomIsi}
+  }
+    \caption{Penelitian Terdahulu}\label{tbl:penelitianterdahulu}\\
+    \toprule
+    \textbf{Deskripsi} & \textbf{Kelebihan} & \textbf{Kekurangan} \\
+    \midrule
+    \endfirsthead
+
+    \caption{Penelitian Terdahulu (lanjutan)} \\
+    \toprule
+    \textbf{Deskripsi} & \textbf{Kelebihan} & \textbf{Kekurangan} \\
+    \midrule
+    \endhead
+
+    \midrule
+    \multicolumn{3}{l}{\textit{Bersambung ke halaman berikutnya}}\\
+    %\bottomrule
+    \endfoot
+
+    \bottomrule
+    \endlastfoot
+
+    % === Table Data ===
+    \hline
+    \JudulBlok{Audit Energi Sistem Kelistrikan Gedung Politeknik Negeri Ujung Pandang \cite{hamdani2017audit}}
+    {Melakukan audit energi gedung dengan pengukuran parameter kelistrikan menggunakan \textit{power meter} dan sistem monitoring untuk menganalisis konsumsi energi dan kualitas data primer.}
+    {Menghasilkan data pengukuran yang akurat dan mendukung identifikasi pemborosan energi secara detail.}
+    {Proses audit dan analisis masih bersifat manual serta belum didukung oleh sistem perangkat lunak terintegrasi untuk pengolahan dan pelaporan.}
+    \hline
+    \hline
+    \JudulBlok{Audit Energi Pada Gedung PPSDM Migas \cite{winarto2019audit}}
+    {Menganalisis konsumsi energi gedung dengan fokus pada sistem tata udara dan pencahayaan melalui pencatatan durasi operasi, beban puncak, dan pola penggunaan energi.}
+    {Memberikan gambaran praktis subsistem dominan konsumsi energi dan peluang konservasi yang signifikan.}
+    {Belum menyediakan dukungan sistem informasi atau otomasi perhitungan dan dokumentasi audit.}
+    \hline
+    \hline
+    \JudulBlok{Sistem Audit Intensitas Konsumsi Energi Listrik Berbasis GUI Matlab \cite{fitri2022sistem}}
+    {Mengembangkan perangkat lunak berbasis antarmuka grafis untuk menghitung nilai IKE secara otomatis dari data konsumsi energi dan luas bangunan.}
+    {Otomasi perhitungan IKE mengurangi kesalahan manual dan mempercepat proses evaluasi efisiensi energi.}
+    {Cakupan sistem terbatas pada perhitungan IKE dan belum mendukung alur audit energi secara menyeluruh.}
+    \hline
+    \hline
+    \JudulBlok{Evaluasi Intensitas Konsumsi Energi Melalui Audit Energi Listrik Gedung \cite{putra2025evaluasi}}
+    {Menghitung IKE dan menggabungkannya dengan metode pengambilan keputusan multikriteria untuk menentukan prioritas strategi efisiensi energi.}
+    {Menyediakan pendekatan terstruktur dalam penentuan prioritas intervensi berbasis data dan kriteria.}
+    {Belum diimplementasikan dalam bentuk perangkat lunak audit energi yang terintegrasi.}
+    \hline
+    \hline
+    \JudulBlok{Audit Support Systems and Decision Aids \cite{dowling2007audit}}
+    {Mengkaji peran sistem pendukung audit dan tingkat restriktivitas sistem dalam mempengaruhi kualitas dan konsistensi proses audit.}
+    {Memberikan kerangka konseptual desain sistem audit berbantuan perangkat lunak.}
+    {Fokus pada audit laporan keuangan dan belum secara spesifik diterapkan pada audit energi bangunan.}
+    \hline
+  \end{longtable}
+}

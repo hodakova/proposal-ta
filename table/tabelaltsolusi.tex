@@ -1,0 +1,37 @@
+\keepXColumns{}
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{1cm} 
+  >{\raggedright\arraybackslash}p{2cm} 
+  X 
+  p{2.5cm} 
+  p{2.5cm}
+}
+  \caption{Alternatif Solusi}\label{tbl:altsolusi} \\
+  \toprule
+  \textbf{Kode} & \textbf{Platform} & \textbf{Deskripsi} & \textbf{Kelebihan} & \textbf{Kekurangan} \\
+  \midrule
+  \endfirsthead
+
+  \caption{Alternatif Solusi (lanjutan)} \\
+  \toprule
+  \textbf{Kode} & \textbf{Platform} & \textbf{Deskripsi} & \textbf{Kelebihan} & \textbf{Kekurangan} \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{5}{l}{\textit{Bersambung ke halaman berikutnya}} \\
+  %\bottomrule
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  % === Table Data ===
+  \hline
+  AS01 & Aplikasi Web Luring dengan Sinkronisasi Otomatis & Aplikasi web yang berjalan secara luring dengan normalisasi data di perangkat dan sinkronisasi saat koneksi tersedia & Meminimalkan kehilangan data dan mempercepat input lapangan & Membutuhkan logika sinkronisasi dan resolusi konflik yang lebih kompleks \\
+  \hline
+  AS02 & Sistem Perhitungan dengan Jejak Audit Terintegrasi & Mesin perhitungan yang menyimpan jejak aturan, sumber data, dan transformasi sehingga setiap hasil dapat ditelusuri kembali & Meningkatkan transparansi dan akuntabilitas hasil audit & Membutuhkan rancangan metadata dan penyimpanan data yang lebih besar \\
+  \hline
+  AS03 & Sistem Penilaian Fleksibel Berbasis Konfigurasi & Antarmuka konfigurasi yang memungkinkan penyesuaian bobot dan aturan penilaian tanpa perubahan kode & Memberikan fleksibilitas tinggi bagi auditor dan memudahkan pembaruan standar & Membutuhkan mekanisme tata kelola agar perubahan aturan tidak memengaruhi konsistensi histori \\
+  \hline
+\end{tabularx}
