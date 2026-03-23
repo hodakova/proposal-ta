@@ -1,0 +1,564 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{sni2000_036196}{manual}{}{}
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=9fe5b1fc84483e138c6a4d0d893af6c9}{%
+           family={{Badan Standardisasi Nasional}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jakarta}%
+      }
+      \list{organization}{1}{%
+        {Badan Standardisasi Nasional}%
+      }
+      \strng{namehash}{9fe5b1fc84483e138c6a4d0d893af6c9}
+      \strng{bibnamehash}{9fe5b1fc84483e138c6a4d0d893af6c9}
+      \strng{shortauthorbibnamehash}{9fe5b1fc84483e138c6a4d0d893af6c9}
+      \strng{shortauthornamehash}{9fe5b1fc84483e138c6a4d0d893af6c9}
+      \strng{shortauthorfullhash}{9fe5b1fc84483e138c6a4d0d893af6c9}
+      \strng{shortauthorfullhashraw}{9fe5b1fc84483e138c6a4d0d893af6c9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{SNI 03-6196-2000 — Audit Energi pada Bangunan Gedung}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://sispk.bsn.go.id/
+      \endverb
+      \verb{url}
+      \verb https://sispk.bsn.go.id/
+      \endverb
+    \endentry
+    \entry{dowling2007audit}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a1e41964c623a135fa288dd8a0a66df1}{%
+           family={Dowling},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3e432f8987ebc9eef62c6175949a86f}{%
+           family={Leech},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f632f351282fb3142cbabda8447c1bb3}
+      \strng{fullhash}{f632f351282fb3142cbabda8447c1bb3}
+      \strng{fullhashraw}{f632f351282fb3142cbabda8447c1bb3}
+      \strng{bibnamehash}{f632f351282fb3142cbabda8447c1bb3}
+      \strng{authorbibnamehash}{f632f351282fb3142cbabda8447c1bb3}
+      \strng{authornamehash}{f632f351282fb3142cbabda8447c1bb3}
+      \strng{authorfullhash}{f632f351282fb3142cbabda8447c1bb3}
+      \strng{authorfullhashraw}{f632f351282fb3142cbabda8447c1bb3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Accounting Information Systems}
+      \field{number}{2}
+      \field{title}{Audit Support Systems and Decision Aids: Current Practice and Opportunities for Future Research}
+      \field{volume}{8}
+      \field{year}{2007}
+      \field{pages}{92\bibrangedash 116}
+      \range{pages}{25}
+    \endentry
+    \entry{fitri2022sistem}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=09ec3619425cbb937642c4b43deae529}{%
+           family={Fitri},
+           familyi={F\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5761111ddfe2d2c5fc1a11e5de7d82fc}{%
+           family={Asmawati},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f27e1e77ef643e123c1759f6ec3880ef}{%
+           family={Ginting},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{25b28f50cc03a052481e22e8edb091b3}
+      \strng{fullhash}{25b28f50cc03a052481e22e8edb091b3}
+      \strng{fullhashraw}{25b28f50cc03a052481e22e8edb091b3}
+      \strng{bibnamehash}{25b28f50cc03a052481e22e8edb091b3}
+      \strng{authorbibnamehash}{25b28f50cc03a052481e22e8edb091b3}
+      \strng{authornamehash}{25b28f50cc03a052481e22e8edb091b3}
+      \strng{authorfullhash}{25b28f50cc03a052481e22e8edb091b3}
+      \strng{authorfullhashraw}{25b28f50cc03a052481e22e8edb091b3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Photon: Jurnal Sain Dan Kesehatan}
+      \field{number}{2}
+      \field{title}{Sistem Audit Intensitas Konsumsi Energi (IKE) Listrik Berbasis GUI Matlab}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{24\bibrangedash 32}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.37859/jp.v12i2.3722
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.37859/jp.v12i2.3722
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.37859/jp.v12i2.3722
+      \endverb
+    \endentry
+    \entry{hamdani2017audit}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5b86e15ae1839f011ed1e79a8b1abc8b}{%
+           family={Hamdani},
+           familyi={H\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=67c658ee37431ca2a6619a6e43c8fa0f}{%
+           family={Thahir},
+           familyi={T\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c7561430f46cc3cb3fb6f5b04d59832}
+      \strng{fullhash}{9c7561430f46cc3cb3fb6f5b04d59832}
+      \strng{fullhashraw}{9c7561430f46cc3cb3fb6f5b04d59832}
+      \strng{bibnamehash}{9c7561430f46cc3cb3fb6f5b04d59832}
+      \strng{authorbibnamehash}{9c7561430f46cc3cb3fb6f5b04d59832}
+      \strng{authornamehash}{9c7561430f46cc3cb3fb6f5b04d59832}
+      \strng{authorfullhash}{9c7561430f46cc3cb3fb6f5b04d59832}
+      \strng{authorfullhashraw}{9c7561430f46cc3cb3fb6f5b04d59832}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Prosiding Seminar Hasil Penelitian}
+      \field{isbn}{978-602-60766-3-2}
+      \field{title}{Audit Energi Sistem Kelistrikan Gedung Politeknik Negeri Ujung Pandang Menggunakan {SCADA} sebagai Instrumen Pengukuran Permanen}
+      \field{volume}{2}
+      \field{year}{2017}
+      \field{pages}{171\bibrangedash 177}
+      \range{pages}{7}
+    \endentry
+    \entry{hermawan2022perencanaan}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c6d45e739c95990e65e13a07049c3179}{%
+           family={Hermawan},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ee43a7bda375433ba3005731c95fe9a}{%
+           family={Setiawan},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b53c92a6da6e8f95c1b594409b48c7ea}
+      \strng{fullhash}{b53c92a6da6e8f95c1b594409b48c7ea}
+      \strng{fullhashraw}{b53c92a6da6e8f95c1b594409b48c7ea}
+      \strng{bibnamehash}{b53c92a6da6e8f95c1b594409b48c7ea}
+      \strng{authorbibnamehash}{b53c92a6da6e8f95c1b594409b48c7ea}
+      \strng{authornamehash}{b53c92a6da6e8f95c1b594409b48c7ea}
+      \strng{authorfullhash}{b53c92a6da6e8f95c1b594409b48c7ea}
+      \strng{authorfullhashraw}{b53c92a6da6e8f95c1b594409b48c7ea}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Sustainable Construction}
+      \field{number}{1}
+      \field{title}{Perencanaan Sistem Informasi Manajemen Aset dan Fasilitas Gedung {PPAG 2} Universitas Katolik Parahyangan}
+      \field{volume}{2}
+      \field{year}{2022}
+      \field{pages}{39\bibrangedash 47}
+      \range{pages}{9}
+    \endentry
+    \entry{iso2014_50002}{manual}{}{}
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=7058e4bd76f877c52b621c942b30613c}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{organization}{1}{%
+        {International Organization for Standardization}%
+      }
+      \strng{namehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{bibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorbibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthornamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorfullhash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorfullhashraw}{7058e4bd76f877c52b621c942b30613c}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 50002:2014 — Energy Audits}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/67921.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/67921.html
+      \endverb
+    \endentry
+    \entry{iso2018_50001}{manual}{}{}
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=7058e4bd76f877c52b621c942b30613c}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{organization}{1}{%
+        {International Organization for Standardization}%
+      }
+      \strng{namehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{bibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorbibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthornamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorfullhash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorfullhashraw}{7058e4bd76f877c52b621c942b30613c}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 50001:2018 — Energy Management Systems}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/69426.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/69426.html
+      \endverb
+    \endentry
+    \entry{kale2023provenance}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=794ba2f25fdab9150954c5509c57b991}{%
+           family={Kale},
+           familyi={K\bibinitperiod},
+           given={Amruta},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25fb51bebdccbeb4efe88a17fc5311d5}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Tin},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e34d43bc297d8b7a5bf9249a6c116e9}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Frederick\bibnamedelima C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=848a0de8a1543a91a19229e84c26c026}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chenhao},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76bf1362e58053ca51d3dc975177477f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jiyin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8054607d7449d435ba2d72ab0704d000}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Xiaogang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{940cbc7f54267183b25c5a8b2f4d7b9a}
+      \strng{fullhash}{d3ab40d349f385966e02edf0940ee55a}
+      \strng{fullhashraw}{d3ab40d349f385966e02edf0940ee55a}
+      \strng{bibnamehash}{d3ab40d349f385966e02edf0940ee55a}
+      \strng{authorbibnamehash}{d3ab40d349f385966e02edf0940ee55a}
+      \strng{authornamehash}{940cbc7f54267183b25c5a8b2f4d7b9a}
+      \strng{authorfullhash}{d3ab40d349f385966e02edf0940ee55a}
+      \strng{authorfullhashraw}{d3ab40d349f385966e02edf0940ee55a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Data Intelligence}
+      \field{number}{1}
+      \field{title}{Provenance Documentation to Enable Explainable and Trustworthy {AI}: A Literature Review}
+      \field{volume}{5}
+      \field{year}{2023}
+      \field{pages}{139\bibrangedash 162}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1162/dint_a_00119
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162/dint_a_00119
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162/dint_a_00119
+      \endverb
+    \endentry
+    \entry{luciano2011integrating}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bbc855ef74aaac87ec2b9e8f4dd05d32}{%
+           family={Luciano},
+           familyi={L\bibinitperiod},
+           given={Luís},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5ee4c4f5204f4190cf6b21756f41778}{%
+           family={Carreira},
+           familyi={C\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00774a9846df0860f131f953a96e9a24}
+      \strng{fullhash}{00774a9846df0860f131f953a96e9a24}
+      \strng{fullhashraw}{00774a9846df0860f131f953a96e9a24}
+      \strng{bibnamehash}{00774a9846df0860f131f953a96e9a24}
+      \strng{authorbibnamehash}{00774a9846df0860f131f953a96e9a24}
+      \strng{authornamehash}{00774a9846df0860f131f953a96e9a24}
+      \strng{authorfullhash}{00774a9846df0860f131f953a96e9a24}
+      \strng{authorfullhashraw}{00774a9846df0860f131f953a96e9a24}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CEUR Workshop Proceedings}
+      \field{note}{Paper 10}
+      \field{title}{Integrating Energy Data with {ETL}}
+      \field{volume}{923}
+      \field{year}{2011}
+    \endentry
+    \entry{owusuafriyiea2024monitoring}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=874f22be9548b6501cba0e09b1644b30}{%
+           family={Owusu-Afriyiea},
+           familyi={O\bibinithyphendelim A\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7ca36bae675ea2c897e8397290c266a}{%
+           family={Awunyo-Vitorb},
+           familyi={A\bibinithyphendelim V\bibinitperiod},
+           given={Dadson},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d1b9d4a3c3eb3466a5765cf06c24565}{%
+           family={Gyimah},
+           familyi={G\bibinitperiod},
+           given={Prince},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73592bbb5f9ae50247658a926e1730c6}{%
+           family={Appiaha},
+           familyi={A\bibinitperiod},
+           given={Kingsley\bibnamedelima Opoku},
+           giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3d75fb14f630bac1c85e82aac226f877}
+      \strng{fullhash}{8d61f5e2ca5728cfa710ab134faa00e2}
+      \strng{fullhashraw}{8d61f5e2ca5728cfa710ab134faa00e2}
+      \strng{bibnamehash}{8d61f5e2ca5728cfa710ab134faa00e2}
+      \strng{authorbibnamehash}{8d61f5e2ca5728cfa710ab134faa00e2}
+      \strng{authornamehash}{3d75fb14f630bac1c85e82aac226f877}
+      \strng{authorfullhash}{8d61f5e2ca5728cfa710ab134faa00e2}
+      \strng{authorfullhashraw}{8d61f5e2ca5728cfa710ab134faa00e2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Cogent Business \& Management}
+      \field{number}{1}
+      \field{title}{Monitoring and Audit Quality: Does Quality Standards Compliance Matter?}
+      \field{volume}{11}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1080/23311975.2024.2416095
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/23311975.2024.2416095
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/23311975.2024.2416095
+      \endverb
+    \endentry
+    \entry{putra2025evaluasi}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=35890d61102734e6477304f3c86e8fb5}{%
+           family={Putra},
+           familyi={P\bibinitperiod},
+           given={Muhammad\bibnamedelimb Dias\bibnamedelima Pramana},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f0a88927bcbae73f1b57542ea79abff}{%
+           family={Sunardiyo},
+           familyi={S\bibinitperiod},
+           given={Said},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universitas Negeri Semarang}%
+      }
+      \strng{namehash}{52abf32d5ea5e72b5636c0d78c8dd301}
+      \strng{fullhash}{52abf32d5ea5e72b5636c0d78c8dd301}
+      \strng{fullhashraw}{52abf32d5ea5e72b5636c0d78c8dd301}
+      \strng{bibnamehash}{52abf32d5ea5e72b5636c0d78c8dd301}
+      \strng{authorbibnamehash}{52abf32d5ea5e72b5636c0d78c8dd301}
+      \strng{authornamehash}{52abf32d5ea5e72b5636c0d78c8dd301}
+      \strng{authorfullhash}{52abf32d5ea5e72b5636c0d78c8dd301}
+      \strng{authorfullhashraw}{52abf32d5ea5e72b5636c0d78c8dd301}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Teknik Elektro}
+      \field{number}{1}
+      \field{title}{Evaluasi Intensitas Konsumsi Energi (IKE) Melalui Audit Energi Listrik Gedung Rumah Sakit Gigi dan Mulut Universitas Muhammadiyah Semarang}
+      \field{volume}{1}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.15294/bte.v1i1.297
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.15294/bte.v1i1.297
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.15294/bte.v1i1.297
+      \endverb
+    \endentry
+    \entry{sommerville2016software}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10}
+      \field{title}{Software Engineering}
+      \field{year}{2016}
+    \endentry
+    \entry{winarto2019audit}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=59d40b51364f2b8807bb6df9f7ad4314}{%
+           family={Winarto},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{59d40b51364f2b8807bb6df9f7ad4314}
+      \strng{fullhash}{59d40b51364f2b8807bb6df9f7ad4314}
+      \strng{fullhashraw}{59d40b51364f2b8807bb6df9f7ad4314}
+      \strng{bibnamehash}{59d40b51364f2b8807bb6df9f7ad4314}
+      \strng{authorbibnamehash}{59d40b51364f2b8807bb6df9f7ad4314}
+      \strng{authornamehash}{59d40b51364f2b8807bb6df9f7ad4314}
+      \strng{authorfullhash}{59d40b51364f2b8807bb6df9f7ad4314}
+      \strng{authorfullhashraw}{59d40b51364f2b8807bb6df9f7ad4314}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Swara Patra : Majalah Ilmiah PPSDM Migas}
+      \field{number}{1}
+      \field{title}{Audit Energi Pada Gedung PPSDM Migas}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{30\bibrangedash 43}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://ejurnal.ppsdmmigas.esdm.go.id/sp/index.php/swarapatra/article/view/181
+      \endverb
+      \verb{url}
+      \verb https://ejurnal.ppsdmmigas.esdm.go.id/sp/index.php/swarapatra/article/view/181
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
