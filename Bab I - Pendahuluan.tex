@@ -18,7 +18,7 @@ Namun, dalam praktiknya, proses audit energi pada banyak bangunan masih dilakuka
 
 Kajian mengenai sistem pendukung audit menegaskan bahwa penggunaan perangkat lunak dapat meningkatkan konsistensi proses, kualitas dokumentasi, dan keandalan hasil evaluasi, selama sistem dirancang untuk mendukung alur kerja audit dan tetap memberikan ruang bagi penilaian profesional auditor \cite{dowling2007audit}. Oleh karena itu, diperlukan suatu perangkat lunak penilaian audit energi yang tidak hanya mampu mengotomasi perhitungan indikator kinerja energi, tetapi juga mendukung kepatuhan terhadap standar audit, menyediakan dokumentasi yang terstruktur, serta memudahkan analisis dan pelaporan hasil audit secara terintegrasi.
 
-Berdasarkan kondisi tersebut, pengembangan perangkat lunak penilaian audit energi pada bangunan gedung menjadi kebutuhan yang relevan dan mendesak. Selain itu, sistem yang dikembangkan diharapkan mampu mengatasi keterbatasan proses audit energi konvensional yang masih bersifat manual dan tidak terintegrasi.
+Berdasarkan kondisi tersebut, pengembangan perangkat lunak penilaian audit energi pada bangunan gedung menjadi kebutuhan yang relevan dan mendesak. Pengembangan perangkat lunak ini diharapkan dapat membantu auditor dan pengelola gedung dalam melakukan audit energi secara lebih cepat, akurat, terstandar, mendukung evaluasi kinerja sistem kelistrikan, serta mampu mengatasi keterbatasan proses audit energi konvensional yang masih bersifat manual dan tidak terintegrasi.
 
 % --- Rumusan Masalah ---
 \section{Rumusan Masalah}
@@ -26,9 +26,11 @@ Berdasarkan kondisi tersebut, pengembangan perangkat lunak penilaian audit energ
 Berdasarkan latar belakang yang sudah dijelaskan diperoleh beberapa rumusan masalah sebagai berikut.
 
 \begin{enumerate}
-    \item Bagaimana kondisi sistem kelistrikan gedung saat ini dalam hal pemantauan, pencatatan, dan evaluasi konsumsi energi, mengingat masih terbatasnya instrumen pengukuran permanen dan keterbatasan akurasi audit manual?
-    \item Bagaimana merancang suatu sistem atau perangkat lunak penilaian yang mampu mendukung proses audit energi agar lebih cepat, terstandar, dan reliabel, sejalan dengan praktik dan rekomendasi sistem audit berbasis perangkat lunak yang telah diteliti sebelumnya?
-    \item Bagaimana efektivitas perangkat lunak dalam mendukung kepatuhan proses audit energi terhadap persyaratan standar ISO 50001, ISO 50002, dan SNI 03-6196-2000 pada studi kasus satu gedung?
+    \item Bagaimana kondisi sistem kelistrikan gedung saat ini dalam hal pemantauan, pencatatan, dan evaluasi konsumsi energi?
+    
+    \item Bagaimana merancang perangkat lunak penilaian audit energi yang mampu mendukung proses audit secara lebih cepat, terstandar, dan reliabel?
+    
+    \item Bagaimana efektivitas perangkat lunak yang dirancang dalam mendukung kepatuhan proses audit energi terhadap standar ISO 50001, ISO 50002, dan SNI 03-6196-2000 pada studi kasus gedung?
 \end{enumerate}
 
 % --- Tujuan ---
@@ -47,6 +49,7 @@ Untuk menjaga fokus dari tugas akhir ini, ditetapkan beberapa batasan masalah ya
 
 \begin{enumerate}
     \item Sumber data yang digunakan dalam perangkat lunak ini berasal dari hasil input manual.
+    
     \item Evaluasi kepatuhan terhadap standar dibatasi pada aspek audit energi yang berkaitan dengan metodologi audit, indikator kinerja energi, format pelaporan, dan dokumentasi audit sesuai ISO 50001, ISO 50002, dan SNI 03-6196-2000.
 \end{enumerate}
 
@@ -81,9 +84,9 @@ Tahapan pengembangan perangkat lunak dalam penelitian ini dijabarkan sebagai ber
     
     \vspace{.1cm}
     \item Pengujian
-    
-    Tahap ini bertujuan untuk memastikan kesesuaian fungsi dan kinerja sistem dengan kebutuhan yang telah ditetapkan. Pengujian meliputi pengujian fungsional setiap modul, verifikasi akurasi perhitungan indikator kinerja energi, serta pengujian alur proses audit menggunakan data studi kasus. Selain itu, dilakukan pengujian nonfungsional untuk menilai aspek kegunaan, keandalan, dan kinerja sistem.
 
+    Tahap ini bertujuan untuk memastikan kesesuaian kebutuhan fungsional dan kualitas nonfungsional sistem. Pengujian dilakukan dengan mengukur tingkat keberhasilan fungsi, efisiensi waktu proses audit dibandingkan dengan metode manual, serta kegunaan sistem melalui penilaian pengguna yang menggunakan skala Likert. Hasil pengujian kemudian dianalisis sebagai evaluasi untuk menilai kinerja dan kebermanfaatan sistem dalam mendukung proses audit energi.
+    
     \vspace{.1cm}
     \item Pemeliharaan
     

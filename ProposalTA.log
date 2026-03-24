@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.25)  23 MAR 2026 20:12
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.25)  24 MAR 2026 22:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Acer/OneDrive/Documents/GitHub/ProposalTA-STI/ProposalTA
-(c:/Users/Acer/OneDrive/Documents/GitHub/ProposalTA-STI/ProposalTA.tex
+**c:/Users/Acer/OneDrive/Documents/GitHub/proposal-ta/ProposalTA
+(c:/Users/Acer/OneDrive/Documents/GitHub/proposal-ta/ProposalTA.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
 (c:/texlive/2025/texmf-dist/tex/latex/base/book.cls
@@ -990,4 +990,940 @@ Package hyperref Info: Link coloring ON on input line 206.
 \openout4 = `ProposalTA.out'.
 
  (c:/texlive/2025/texmf-dist/tex/latex/floatrow/fr-longtable.sty
-Package: fr-longtable 2007/11/28 v0.1b (beta) f
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+\flrow@LT@lasthead=\box70
+\flrow@LT@prelastfoot=\box71
+\c@FBLTpage=\count503
+)
+\c@lstlisting=\count504
+Package biblatex Info: Trying to load language 'indonesian'...
+Package biblatex Info: ... file 'indonesian.lbx' not found.
+
+
+Package biblatex Warning: Language 'indonesian' not supported.
+(biblatex)                Using dummy definitions on input line 206.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `ProposalTA.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'ProposalTA.bbl' found.
+ (./ProposalTA.bbl)
+Package biblatex Info: Reference section=0 on input line 206.
+Package biblatex Info: Reference segment=0 on input line 206.
+File: image/ganesha.jpg Graphic file (type bmp)
+<image/ganesha.jpg>
+
+
+Package datetime2 Warning: Region `bahasai' has ignored 
+(datetime2)                the following settings:
+(datetime2)                showmonthname=true
+ on input line 248.
+
+[1
+
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 293.
+ (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 293.
+ (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 293--299
+ [][] 
+ []
+
+[1] (./ProposalTA.toc [2
+
+])
+\tf@toc=\write5
+\openout5 = `ProposalTA.toc'.
+
+ [3] (./ProposalTA.lof
+Overfull \hbox (3.56656pt too wide) in paragraph at lines 136--136
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/12 Diagram Aktivitas Proses Audit Energi Saat Ini ([][]Hamdani dan Thahir 
+ []
+
+)
+\tf@lof=\write6
+\openout6 = `ProposalTA.lof'.
+
+ [4] (./ProposalTA.lot)
+\tf@lot=\write7
+\openout7 = `ProposalTA.lot'.
+
+ [5] (./Bab I - Pendahuluan.tex
+Bab I.
+[1
+
+
+] [2]
+Overfull \hbox (3.51883pt too wide) in paragraph at lines 42--43
+[]\TU/TimesNewRoman(0)/m/n/12 Merancang dan mengembangkan sebuah perangkat lunak penilaian yang mam-
+ []
+
+[3]
+File: image/waterfall.png Graphic file (type bmp)
+<image/waterfall.png>
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 64.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 64.
+
+[4]) (./Bab II - Studi-Literatur.tex [5]
+Bab II.
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 10.
+
+[6
+
+] [7] [8] [9]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 39.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 41.
+
+[10] [11] [12] (./table/tabelpenelitianterdahulu.tex
+\LebarBersih=\skip139
+\KolomDeskripsi=\skip140
+\KolomIsi=\skip141
+\LebarTabel=\skip142
+
+Underfull \hbox (badness 1286) in paragraph at lines 70--70
+[]|\TU/TimesNewRoman(0)/m/n/12 Melakukan audit energi
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 70--70
+\TU/TimesNewRoman(0)/m/n/12 gedung dengan pengu-
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 70--70
+\TU/TimesNewRoman(0)/m/n/12 kuran parameter kelis-
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 70--70
+\TU/TimesNewRoman(0)/m/it/12 wer meter \TU/TimesNewRoman(0)/m/n/12 dan sistem
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 70--70
+[]|\TU/TimesNewRoman(0)/m/n/12 Menghasilkan data pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\TU/TimesNewRoman(0)/m/n/12 ngukuran yang akurat
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 70--70
+\TU/TimesNewRoman(0)/m/n/12 kasi pemborosan energi
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 70--70
+[]|\TU/TimesNewRoman(0)/m/n/12 Proses audit dan anali-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\TU/TimesNewRoman(0)/m/n/12 Menganalisis konsumsi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 energi gedung dengan
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 fokus pada sistem tata
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 udara dan pencahayaan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 dan pola penggunaan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\TU/TimesNewRoman(0)/m/n/12 Memberikan gambaran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengembangkan per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 angkat lunak berbasis
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 antarmuka grafis untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 menghitung nilai IKE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\TU/TimesNewRoman(0)/m/n/12 Otomasi perhitungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 IKE mengurangi ke-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 salahan manual dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 mempercepat proses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 pada perhitungan IKE
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 dan belum mendukung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(0)/m/n/12 Menghitung IKE dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 menggabungkannya
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 dengan metode pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 ngambilan keputusan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 multikriteria untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 menentukan prioritas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyediakan pende-
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 katan terstruktur dalam
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 kat lunak audit energi
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 94--94
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengkaji peran sistem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\TU/TimesNewRoman(0)/m/n/12 pendukung audit dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\TU/TimesNewRoman(0)/m/n/12 tingkat restriktivitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\TU/TimesNewRoman(0)/m/n/12 sistem dalam mempe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\TU/TimesNewRoman(0)/m/n/12 ngaruhi kualitas dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\TU/TimesNewRoman(0)/m/n/12 Memberikan kerangka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\TU/TimesNewRoman(0)/m/n/12 konseptual desain sis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\TU/TimesNewRoman(0)/m/n/12 tem audit berbantuan
+ []
+
+[13]
+./table/tabelpenelitianterdahulu.tex:96: ignored error: Infinite glue shrinkage found in box being split [14])) (./Bab III - Analisis-Masalah.tex [15]
+Bab III.
+[16
+
+]
+File: image/as-is.png Graphic file (type bmp)
+<image/as-is.png>
+ [17] [18] (./table/tabelproblem.tex
+Overfull \hbox (3.08864pt too wide) in paragraph at lines 45--45
+[]|\TU/TimesNewRoman(0)/m/n/12 Penginputan 
+ []
+
+
+Overfull \hbox (1.08473pt too wide) in paragraph at lines 45--45
+[]|\TU/TimesNewRoman(0)/m/n/12 Perhitungan 
+ []
+
+./table/tabelproblem.tex:45: ignored error: Infinite glue shrinkage found in box being split [19]) [20] (./table/tabelfr.tex
+Overfull \hbox (1.11989pt too wide) in paragraph at lines 72--72
+[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan|  
+ []
+
+
+Overfull \hbox (1.11989pt too wide) in paragraph at lines 72--72
+[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan|  
+ []
+
+
+Overfull \hbox (1.08473pt too wide) in paragraph at lines 72--72
+[]|\TU/TimesNewRoman(0)/m/n/12 Normalisasi 
+ []
+
+
+Overfull \hbox (8.41481pt too wide) in paragraph at lines 72--72
+[]|\TU/TimesNewRoman(0)/m/n/12 Penyimpanan 
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 72--72
+[]|\TU/TimesNewRoman(0)/m/n/12 Sistem menyimpan semua data hasil in-
+ []
+
+
+Overfull \hbox (1.08473pt too wide) in paragraph at lines 72--72
+[]|\TU/TimesNewRoman(0)/m/n/12 Perhitungan 
+ []
+
+./table/tabelfr.tex:72: ignored error: Infinite glue shrinkage found in box being split [21]) (./table/tabelnr.tex
+Overfull \hbox (5.74294pt too wide) in paragraph at lines 41--41
+[]|\TU/TimesNewRoman(0)/m/it/12 Performance|  
+ []
+
+./table/tabelnr.tex:41: ignored error: Infinite glue shrinkage found in box being split [22]) [23] (./table/tabelaltsolusi.tex
+Underfull \hbox (badness 5475) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 ronisasi saat koneksi
+ []
+
+
+Overfull \hbox (2.18648pt too wide) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Meminimalkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 kehilangan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Membutuhkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 logika sink-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 ronisasi dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 resolusi kon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Mesin perhitungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 yang menyimpan
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 jejak aturan, sumber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 data, dan transfor-
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 masi sehingga setiap
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 hasil dapat ditelusuri
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Meningkatkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 transparansi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 dan akunta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 bilitas hasil
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Membutuhkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 rancangan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 metadata dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 penyimpanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 data yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Memberikan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 fleksibilitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 tinggi bagi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 auditor dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 memudahkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 pembaruan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Membutuhkan
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 ta kelola agar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 perubahan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 aturan tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 memengaruhi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/m/n/12 konsistensi
+ []
+
+) [24] (./table/tabeldeskripsiparameteras.tex
+Underfull \hbox (badness 1371) in paragraph at lines 49--49
+[]|\TU/TimesNewRoman(0)/m/n/12 Menilai keterlaksanaan teknis solusi berda-
+ []
+
+
+Overfull \hbox (4.64723pt too wide) in paragraph at lines 49--49
+[]|\TU/TimesNewRoman(0)/m/n/12 Transparansi 
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 49--49
+\TU/TimesNewRoman(0)/m/n/12 ternational Organization for Standardization
+ []
+
+
+Overfull \hbox (1.07301pt too wide) in paragraph at lines 49--49
+[]|\TU/TimesNewRoman(0)/m/n/12 Kemudahan 
+ []
+
+./table/tabeldeskripsiparameteras.tex:49: ignored error: Infinite glue shrinkage found in box being split [25]) (./table/tabelpenentuansolusi.tex [26])) (./Bab IV - Desain-Konsep-Solusi.tex [27]
+Bab IV.
+File: image/to-be.png Graphic file (type bmp)
+<image/to-be.png>
+[28
+
+] [29] (./table/tabelperbandinganasisdantobe.tex
+Underfull \hbox (badness 1590) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Data diperoleh dari tagihan
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 nitoring permanen dan be-
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 lum adanya aplikasi pendu-
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 pulan data bergantung pada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Data dikumpulkan mela-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 lui aplikasi berbasis web
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 dengan dukungan operasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 luring, sehingga auditor
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 konsisten tanpa bergantung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 pada ketersediaan koneksi
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Penginputan dilakukan me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 lalui formulir terstruktur
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 dan mekanisme impor data
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Proses audit sering bergan-
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 tung pada ketersediaan ko-
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 menghambat aktivitas audit
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 gunakan pendekatan aplika-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 si web luring, sehingga se-
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 dan penginputan data dapat
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 disinkronkan ketika koneksi
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Perhitungan indikator dila-
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 kukan secara otomatis dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Laporan dihasilkan secara
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 otomatis oleh sistem berda-
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 hingga mempercepat proses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 pelaporan dan mengurangi
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Hasil audit disajikan dalam
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 61--61
+\TU/TimesNewRoman(0)/m/n/12 sumsi dan identifikasi area
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Data dan laporan audit di-
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Seluruh data dan hasil au-
+ []
+
+./table/tabelperbandinganasisdantobe.tex:61: ignored error: Infinite glue shrinkage found in box being split [30]
+./table/tabelperbandinganasisdantobe.tex:61: ignored error: Infinite glue shrinkage found in box being split [31]) [32] (./table/tabelaktor.tex)
+File: image/usecase.png Graphic file (type bmp)
+<image/usecase.png>
+ [33] (./table/tabeluc.tex
+Overfull \hbox (6.2289pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/b/n/12 Fungsi|  
+ []
+
+
+Overfull \hbox (2.20937pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/b/n/12 Aktor|  
+ []
+
+
+Overfull \hbox (6.2289pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/b/n/12 Fungsi|  
+ []
+
+
+Overfull \hbox (2.20937pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/b/n/12 Aktor|  
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Membuat dan mengelola proyek audit
+ []
+
+
+Overfull \hbox (1.22499pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 FR01, 
+ []
+
+
+Overfull \hbox (5.7488pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Memvalidasi 
+ []
+
+
+Overfull \hbox (5.08669pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Mensinkron- 
+ []
+
+
+Overfull \hbox (1.75856pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Menghitung 
+ []
+
+
+Overfull \hbox (1.22499pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 FR05, 
+ []
+
+
+Overfull \hbox (1.22499pt too wide) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 FR07, 
+ []
+
+./table/tabeluc.tex:61: ignored error: Infinite glue shrinkage found in box being split [34]) [35]
+File: image/er.png Graphic file (type bmp)
+<image/er.png>
+ [36] (./table/tabelentitas.tex
+Overfull \hbox (6.2289pt too wide) in paragraph at lines 84--84
+[]|\TU/TimesNewRoman(0)/b/n/12 Fungsi|  
+ []
+
+
+Overfull \hbox (6.2289pt too wide) in paragraph at lines 84--84
+[]|\TU/TimesNewRoman(0)/b/n/12 Fungsi|  
+ []
+
+
+Overfull \hbox (4.42458pt too wide) in paragraph at lines 84--84
+[]|\TU/TimesNewRoman(0)/m/n/12 ProyekAudit|  
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 84--84
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyimpan informasi mengenai gedung yang
+ []
+
+
+Overfull \hbox (1.22499pt too wide) in paragraph at lines 84--84
+[]|\TU/TimesNewRoman(0)/m/n/12 FR01, 
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 84--84
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyimpan hasil penilaian atau scoring audit
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 84--84
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyimpan informasi mengenai standar audit
+ []
+
+./table/tabelentitas.tex:84: ignored error: Infinite glue shrinkage found in box being split [37])) (./Bab V - Rencana-Selanjutnya.tex [38] [39]
+Bab V.
+[40
+
+] (./table/tabeltools.tex
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\TU/TimesNewRoman(0)/m/n/12 Digunakan untuk membangun antarmuka
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 50--50
+\TU/TimesNewRoman(0)/m/n/12 pengguna, termasuk form input data dan
+ []
+
+./table/tabeltools.tex:50: ignored error: Infinite glue shrinkage found in box being split [41]) (./table/tabeltimeline.tex
+\PanjangKolom=\skip143
+
+Overfull \hbox (0.8752pt too wide) in paragraph at lines 63--63
+ []|\TU/TimesNewRoman(0)/b/n/8 Mar| 
+ []
+
+
+Overfull \hbox (0.8752pt too wide) in paragraph at lines 63--63
+ []|\TU/TimesNewRoman(0)/b/n/8 Mar| 
+ []
+
+./table/tabeltimeline.tex:63: ignored error: Infinite glue shrinkage found in box being split [42]) (./table/tabelrisks.tex
+Underfull \hbox (badness 6125) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/n/12 Analisis dan evaluasi
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 tatif terhadap kondisi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/n/12 Desain sistem perlu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 penyesuaian ulang
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 sehingga menghambat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/n/12 Membatasi ruang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 lingkup kebutuhan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 dan memprioritaskan
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 kebutuhan inti sesuai
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 pat diimplementasikan
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 da fungsi utama audit
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/n/12 Implementasi dan pe-
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 kuskan pengembangan
+ []
+
+[43])) [44] [45
+
+
+]
+Overfull \hbox (2.5525pt too wide) in paragraph at lines 408--408
+[][]\TU/TimesNewRoman(0)/m/n/12 Luciano, Luís, dan Paulo Carreira. 2011. “  Integrating Energy Data with ETL”. Dalam
+ []
+
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 388.
+See the caption package documentation for explanation.
+
+[46] (./ProposalTA.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-14>
+ ***********
+Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
+(rerunfilecheck)             Checksum: 0BFC198DA46A48D821874CBE0D2A6891;7776.
+Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
+\openout1 = `ProposalTA.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 32355 strings out of 468179
+ 635814 string characters out of 5436883
+ 2023663 words of memory out of 5000000
+ 60646 multiletter control sequences out of 15000+600000
+ 632918 words of font info for 83 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 73i,15n,93p,1507b,8204s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on ProposalTA.pdf (52 pages).

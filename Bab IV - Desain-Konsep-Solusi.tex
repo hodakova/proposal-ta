@@ -5,7 +5,7 @@
 \label{chap:desain-konsep-solusi}
 Bab ini mengilustrasikan desain konsep solusi dalam bentuk model konseptual dan penjelasan secara ringkas, beserta perbedaannya dengan sistem saat ini. Bab ini berisi gambar desain konsep solusi tersebut dan penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergambar di awal Bab \ref{chap:analisis-masalah}).
 
-\section{Analisis Kondisi yang Akan Datang}
+\section{Analisis Kondisi Audit Energi yang Akan Datang}
 Kondisi yang akan datang dirancang berdasarkan solusi terpilih pada Bab sebelumnya, yaitu pengembangan perangkat lunak audit energi berbasis aplikasi web luring dengan sinkronisasi otomatis. Pemilihan solusi ini dapat menjawab permasalahan utama pada proses audit energi, seperti ketergantungan pada pencatatan manual, ketidakteraturan format data, keterbatasan validasi, serta tidak tersedianya penyimpanan histori audit yang terpusat. Pendekatan ini memungkinkan aplikasi berjalan melalui peramban web namun tetap memiliki kemampuan penyimpanan lokal dan sinkronisasi data, sehingga sesuai dengan kondisi audit lapangan yang sering dilakukan pada lokasi dengan keterbatasan konektivitas jaringan.
 
 Dengan pendekatan aplikasi web luring, proses pengumpulan dan pengolahan awal data audit tidak lagi bergantung pada koneksi internet secara terus-menerus. Data dapat diinput, divalidasi, dan disimpan secara lokal di perangkat pengguna, kemudian disinkronkan ke server pusat ketika koneksi tersedia. Perubahan alur kerja ini meningkatkan efisiensi proses audit, mengurangi risiko kehilangan data, serta memastikan bahwa perhitungan indikator dan penilaian dilakukan secara terstandar oleh sistem. Ilustrasi alur proses audit energi yang diusulkan ditunjukkan pada Gambar~\ref{gambar:proses-audit-yang-akan-datang}, yang merepresentasikan kondisi proses audit energi setelah penerapan solusi perangkat lunak yang diusulkan.
@@ -24,14 +24,14 @@ Data yang diinput akan melalui proses validasi dan disimpan secara lokal di pera
 
 Pada sisi server, sistem menjalankan perhitungan indikator kinerja energi dan mekanisme penilaian secara otomatis dan terstandar. Pemusatan proses perhitungan ini memastikan konsistensi metode analisis antar audit dan antar periode waktu. Hasil perhitungan disajikan dalam bentuk \textit{dashboard} dan laporan otomatis yang dapat diakses oleh auditor dan pengelola gedung untuk mendukung proses evaluasi dan pengambilan keputusan. Seluruh hasil audit kemudian disimpan dalam basis data terpusat sebagai histori audit, sehingga memungkinkan evaluasi berkala, perbandingan antar periode, serta analisis tren konsumsi energi secara berkelanjutan.
 
-\section{Perbandingan Kondisi Saat Ini dan Kondisi yang Akan Datang}
+\section{Perbandingan Kondisi Audit Energi Saat Ini dan Kondisi yang Akan Datang}
 Perbandingan antara kondisi proses audit energi saat ini dan kondisi yang akan datang disajikan pada Tabel~\ref{tbl:perbandinganasisdantobe} untuk menegaskan perubahan mendasar yang diusulkan melalui pengembangan perangkat lunak audit energi yang difokuskan pada aspek-aspek operasional.
 
 \input table/tabelperbandinganasisdantobe.tex
 
 Berdasarkan Tabel~\ref{tbl:perbandinganasisdantobe}, kondisi yang akan datang menunjukkan pergeseran signifikan dari proses audit energi yang bersifat manual menuju sistem yang lebih terstruktur dan terintegrasi. Pengumpulan dan penginputan data yang sebelumnya bergantung pada pencatatan manual dan \textit{spreadsheet} digantikan dengan mekanisme input terstandar yang mendukung operasi luring, sehingga meningkatkan konsistensi data dan mengurangi hambatan akibat keterbatasan konektivitas. Proses validasi awal dan perhitungan indikator dilakukan secara otomatis oleh sistem, yang membantu menekan potensi kesalahan perhitungan serta mempercepat tahapan analisis. Penyajian hasil audit dalam bentuk \textit{dashboard} dan laporan otomatis, serta penyimpanan histori audit secara terpusat, memberikan dukungan yang lebih baik untuk evaluasi berkala dan pengambilan keputusan berbasis data pada pengelolaan energi gedung.
 
-\section{Desain Fungsional Sistem}
+\section{Desain Fungsional Sistem Perangkat Lunak Audit Energi}
 Desain fungsional sistem disusun untuk menggambarkan bagaimana perangkat lunak penilaian yang diusulkan mendukung proses audit energi melalui fungsi-fungsi utama yang terstruktur. Pada tahap ini dilakukan identifikasi aktor yang terlibat serta perancangan interaksi antara aktor dan sistem dalam menjalankan proses audit energi. Pendefinisian aktor diperlukan untuk memperjelas peran, batasan akses, dan tanggung jawab masing-masing pihak, sehingga desain fungsional yang dihasilkan mencerminkan kebutuhan penggunaan sistem secara nyata. Definisi aktor yang terlibat dalam sistem audit energi disajikan pada Tabel~\ref{tbl:actor}.
 
 \input table/tabelaktor.tex
@@ -42,7 +42,7 @@ Berdasarkan definisi aktor pada Tabel~\ref{tbl:actor}, sistem audit energi melib
     \centering
     \captionsetup{justification=centering}
         \includegraphics[width=0.95\textwidth]{image/usecase}
-    \caption{Diagram \textit{Use Case}}
+    \caption{Diagram \textit{Use Case} Perangkat Lunak Audit Energi}
     \label{gambar:usecase}
 \end{figure}
 
@@ -52,14 +52,14 @@ Diagram \textit{use case} pada Gambar~\ref{gambar:usecase} menampilkan fungsi-fu
 
 Berdasarkan definisi \textit{use case} pada Tabel~\ref{tbl:uc}, dapat dilihat bahwa desain fungsional sistem audit energi ini diturunkan secara langsung dari kebutuhan fungsional yang telah dirumuskan pada tahap analisis kebutuhan. Setiap \textit{use case} merepresentasikan fungsi inti yang diperlukan untuk mendukung proses audit energi secara terstruktur, mulai dari pengelolaan proyek dan data audit hingga penyajian hasil dalam bentuk \textit{dashboard} dan laporan. Desain ini menegaskan peran sistem sebagai pendukung audit yang mengotomasi proses teknis dan perhitungan, sementara auditor tetap berperan dalam interpretasi hasil dan pengambilan keputusan. Dengan demikian, desain fungsional sistem ini menjadi dasar yang jelas dan terdefinisi untuk tahap perancangan detail dan implementasi perangkat lunak pada tahap selanjutnya.
 
-\section{Desain Data Sistem}
+\section{Desain Data Sistem Perangkat Lunak Audit Energi}
 Desain data sistem disusun untuk menggambarkan struktur data yang digunakan dalam perangkat lunak audit energi, termasuk entitas utama, atributnya, serta hubungan antar entitas. Desain ini penting untuk memastikan bahwa data yang dikumpulkan, diproses, dan disimpan oleh sistem dapat dikelola secara efisien dan mendukung kebutuhan fungsional yang telah ditetapkan. Pada tahap ini dilakukan identifikasi entitas utama yang relevan dengan proses audit energi, seperti proyek audit, data audit, hasil perhitungan indikator, serta histori audit. Hubungan antar entitas juga dirancang untuk mencerminkan alur data yang terjadi selama proses audit, mulai dari input data hingga penyimpanan hasil audit. Hubungan antar entitas ini diilustrasikan melalui diagram entitas-relasi yang ditampilkan pada Gambar~\ref{gambar:er}.
 
 \begin{figure}[H]
     \centering
     \captionsetup{justification=centering}
         \includegraphics[width=0.95\textwidth]{image/er}
-    \caption{Diagram Entitas-Relasi}
+    \caption{Diagram Entitas-Relasi Perangkat Lunak Audit Energi}
     \label{gambar:er}
 \end{figure}
 
