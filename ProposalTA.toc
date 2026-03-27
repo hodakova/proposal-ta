@@ -201,15 +201,16 @@
 \contentsline {chapter}{\numberline {IV}DESAIN KONSEP SOLUSI}{28}{chapter.4}%
 \contentsline {section}{\numberline {IV.1}Analisis Kondisi Audit Energi yang Akan Datang}{28}{section.4.1}%
 \contentsline {section}{\numberline {IV.2}Perbandingan Kondisi Audit Energi Saat Ini dan Kondisi yang Akan Datang}{30}{section.4.2}%
-\contentsline {section}{\numberline {IV.3}Desain Fungsional Sistem Perangkat Lunak Audit Energi}{33}{section.4.3}%
-\contentsline {section}{\numberline {IV.4}Desain Data Sistem Perangkat Lunak Audit Energi}{35}{section.4.4}%
-\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{40}{chapter.5}%
-\contentsline {section}{\numberline {V.1}Pengembangan Desain Sistem Lanjutan}{40}{section.5.1}%
-\contentsline {section}{\numberline {V.2}Rencana Implementasi Sistem}{40}{section.5.2}%
-\contentsline {subsection}{\numberline {V.2.1}Lingkungan dan Alat Pengembangan}{41}{subsection.5.2.1}%
-\contentsline {section}{\numberline {V.3}Rencana Pengujian dan Evaluasi}{42}{section.5.3}%
-\contentsline {section}{\numberline {V.4}Rencana Waktu Pelaksanaan}{42}{section.5.4}%
-\contentsline {section}{\numberline {V.5}Analisis Risiko dan Mitigasi}{43}{section.5.5}%
+\contentsline {section}{\numberline {IV.3}Desain Arsitektur Sistem Perangkat Lunak Audit Energi}{33}{section.4.3}%
+\contentsline {section}{\numberline {IV.4}Desain Fungsional Sistem Perangkat Lunak Audit Energi}{34}{section.4.4}%
+\contentsline {section}{\numberline {IV.5}Desain Data Sistem Perangkat Lunak Audit Energi}{36}{section.4.5}%
+\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{41}{chapter.5}%
+\contentsline {section}{\numberline {V.1}Pengembangan Desain Sistem Lanjutan}{41}{section.5.1}%
+\contentsline {section}{\numberline {V.2}Rencana Implementasi Sistem}{41}{section.5.2}%
+\contentsline {subsection}{\numberline {V.2.1}Lingkungan dan Alat Pengembangan}{42}{subsection.5.2.1}%
+\contentsline {section}{\numberline {V.3}Rencana Pengujian dan Evaluasi}{43}{section.5.3}%
+\contentsline {section}{\numberline {V.4}Rencana Waktu Pelaksanaan}{43}{section.5.4}%
+\contentsline {section}{\numberline {V.5}Analisis Risiko dan Mitigasi}{44}{section.5.5}%
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 

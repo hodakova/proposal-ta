@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.25)  24 MAR 2026 22:08
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.25)  27 MAR 2026 10:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1707,10 +1707,13 @@ Underfull \hbox (badness 2529) in paragraph at lines 61--61
  []
 
 ./table/tabelperbandinganasisdantobe.tex:61: ignored error: Infinite glue shrinkage found in box being split [30]
-./table/tabelperbandinganasisdantobe.tex:61: ignored error: Infinite glue shrinkage found in box being split [31]) [32] (./table/tabelaktor.tex)
+./table/tabelperbandinganasisdantobe.tex:61: ignored error: Infinite glue shrinkage found in box being split [31]) [32]
+File: image/arch.png Graphic file (type bmp)
+<image/arch.png>
+ [33] (./table/tabelaktor.tex)
 File: image/usecase.png Graphic file (type bmp)
 <image/usecase.png>
- [33] (./table/tabeluc.tex
+ [34] (./table/tabeluc.tex
 Overfull \hbox (6.2289pt too wide) in paragraph at lines 61--61
 []|\TU/TimesNewRoman(0)/b/n/12 Fungsi|  
  []
@@ -1765,10 +1768,10 @@ Overfull \hbox (1.22499pt too wide) in paragraph at lines 61--61
 []|\TU/TimesNewRoman(0)/m/n/12 FR07, 
  []
 
-./table/tabeluc.tex:61: ignored error: Infinite glue shrinkage found in box being split [34]) [35]
+./table/tabeluc.tex:61: ignored error: Infinite glue shrinkage found in box being split [35]) [36]
 File: image/er.png Graphic file (type bmp)
 <image/er.png>
- [36] (./table/tabelentitas.tex
+ [37] (./table/tabelentitas.tex
 Overfull \hbox (6.2289pt too wide) in paragraph at lines 84--84
 []|\TU/TimesNewRoman(0)/b/n/12 Fungsi|  
  []
@@ -1803,9 +1806,9 @@ Underfull \hbox (badness 1642) in paragraph at lines 84--84
 []|\TU/TimesNewRoman(0)/m/n/12 Menyimpan informasi mengenai standar audit
  []
 
-./table/tabelentitas.tex:84: ignored error: Infinite glue shrinkage found in box being split [37])) (./Bab V - Rencana-Selanjutnya.tex [38] [39]
+./table/tabelentitas.tex:84: ignored error: Infinite glue shrinkage found in box being split [38])) (./Bab V - Rencana-Selanjutnya.tex [39] [40]
 Bab V.
-[40
+[41
 
 ] (./table/tabeltools.tex
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
@@ -1817,7 +1820,7 @@ Underfull \hbox (badness 3646) in paragraph at lines 50--50
 \TU/TimesNewRoman(0)/m/n/12 pengguna, termasuk form input data dan
  []
 
-./table/tabeltools.tex:50: ignored error: Infinite glue shrinkage found in box being split [41]) (./table/tabeltimeline.tex
+./table/tabeltools.tex:50: ignored error: Infinite glue shrinkage found in box being split [42]) (./table/tabeltimeline.tex
 \PanjangKolom=\skip143
 
 Overfull \hbox (0.8752pt too wide) in paragraph at lines 63--63
@@ -1829,7 +1832,7 @@ Overfull \hbox (0.8752pt too wide) in paragraph at lines 63--63
  []|\TU/TimesNewRoman(0)/b/n/8 Mar| 
  []
 
-./table/tabeltimeline.tex:63: ignored error: Infinite glue shrinkage found in box being split [42]) (./table/tabelrisks.tex
+./table/tabeltimeline.tex:63: ignored error: Infinite glue shrinkage found in box being split [43]) (./table/tabelrisks.tex
 Underfull \hbox (badness 6125) in paragraph at lines 38--38
 []|\TU/TimesNewRoman(0)/m/n/12 Analisis dan evaluasi
  []
@@ -1894,7 +1897,7 @@ Underfull \hbox (badness 2150) in paragraph at lines 38--38
 \TU/TimesNewRoman(0)/m/n/12 kuskan pengembangan
  []
 
-[43])) [44] [45
+[44])) [45] [46
 
 
 ]
@@ -1906,24 +1909,24 @@ Overfull \hbox (2.5525pt too wide) in paragraph at lines 408--408
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 388.
 See the caption package documentation for explanation.
 
-[46] (./ProposalTA.aux)
+[47] (./ProposalTA.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
  ***********
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: 0BFC198DA46A48D821874CBE0D2A6891;7776.
+(rerunfilecheck)             Checksum: D4C8CF03DA34477C05896EE8B0643A4D;8114.
 Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 \openout1 = `ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32355 strings out of 468179
- 635814 string characters out of 5436883
- 2023663 words of memory out of 5000000
- 60646 multiletter control sequences out of 15000+600000
+ 32375 strings out of 468179
+ 636183 string characters out of 5436883
+ 2024101 words of memory out of 5000000
+ 60665 multiletter control sequences out of 15000+600000
  632918 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,15n,93p,1507b,8204s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (52 pages).
+Output written on ProposalTA.pdf (53 pages).

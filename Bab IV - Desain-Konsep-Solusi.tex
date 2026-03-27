@@ -31,6 +31,19 @@ Perbandingan antara kondisi proses audit energi saat ini dan kondisi yang akan d
 
 Berdasarkan Tabel~\ref{tbl:perbandinganasisdantobe}, kondisi yang akan datang menunjukkan pergeseran signifikan dari proses audit energi yang bersifat manual menuju sistem yang lebih terstruktur dan terintegrasi. Pengumpulan dan penginputan data yang sebelumnya bergantung pada pencatatan manual dan \textit{spreadsheet} digantikan dengan mekanisme input terstandar yang mendukung operasi luring, sehingga meningkatkan konsistensi data dan mengurangi hambatan akibat keterbatasan konektivitas. Proses validasi awal dan perhitungan indikator dilakukan secara otomatis oleh sistem, yang membantu menekan potensi kesalahan perhitungan serta mempercepat tahapan analisis. Penyajian hasil audit dalam bentuk \textit{dashboard} dan laporan otomatis, serta penyimpanan histori audit secara terpusat, memberikan dukungan yang lebih baik untuk evaluasi berkala dan pengambilan keputusan berbasis data pada pengelolaan energi gedung.
 
+\section{Desain Arsitektur Sistem Perangkat Lunak Audit Energi}
+Desain arsitektur sistem disusun untuk menggambarkan alur interaksi antarkomponen utama dalam perangkat lunak audit energi, mulai dari pengguna hingga ke pengolahan data. Desain ini penting untuk memastikan bahwa struktur sistem yang diusulkan dapat mendukung kebutuhan fungsional yang telah dirumuskan. Hubungan antarkomponen juga dirancang untuk mencerminkan alur kerja yang terjadi selama proses audit energi. Alur interaksi antarkomponen ini diilustrasikan melalui diagram arsitektur sistem yang ditampilkan pada Gambar~\ref{gambar:arch}.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+        \includegraphics[width=0.25\textwidth]{image/arch}
+    \caption{Diagram Arsitektur Sistem Perangkat Lunak Audit Energi}
+    \label{gambar:arch}
+\end{figure}
+
+Diagram arsitektur sistem pada Gambar~\ref{gambar:arch} menampilkan komponen utama sistem, yaitu Pengguna, Website Frontend, Flask Backend, dan Firestore Firebase Database. Pengguna berinteraksi dengan sistem melalui Website Frontend, yang menyediakan antarmuka untuk input data audit, pemantauan hasil audit, serta akses ke fitur-fitur lainnya. Website Frontend akan meneruskan permintaan \textit{(request)} ke Flask backend untuk diproses sesuai dengan logika bisnis yang telah dirancang. Flask Backend bertanggung jawab untuk memproses logika aplikasi, melakukan perhitungan indikator kinerja energi, serta mengelola alur kerja audit secara keseluruhan. Data yang diproses oleh Flask Backend disimpan dan dikelola dalam Firestore Firebase Database, yang menyediakan penyimpanan terpusat untuk data audit, histori audit, serta hasil perhitungan. Dengan desain arsitektur ini, sistem audit energi dapat berjalan secara efisien dan mendukung kebutuhan fungsional yang telah dirumuskan pada tahap analisis kebutuhan sebelumnya.
+
 \section{Desain Fungsional Sistem Perangkat Lunak Audit Energi}
 Desain fungsional sistem disusun untuk menggambarkan bagaimana perangkat lunak penilaian yang diusulkan mendukung proses audit energi melalui fungsi-fungsi utama yang terstruktur. Pada tahap ini dilakukan identifikasi aktor yang terlibat serta perancangan interaksi antara aktor dan sistem dalam menjalankan proses audit energi. Pendefinisian aktor diperlukan untuk memperjelas peran, batasan akses, dan tanggung jawab masing-masing pihak, sehingga desain fungsional yang dihasilkan mencerminkan kebutuhan penggunaan sistem secara nyata. Definisi aktor yang terlibat dalam sistem audit energi disajikan pada Tabel~\ref{tbl:actor}.
 
